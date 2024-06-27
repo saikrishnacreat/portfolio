@@ -1,37 +1,42 @@
-*{
-    background-color: grey;
-  }
-  #navbar{
+#navbar{
     display : flex;
     justify-content : space-around;
     font-size : 25px;
-  top :0;
-  position : fixed;
-  width : 100%;
-  }
-  .nav-links{
+    top :0;
+    width : 100%;
+    margin : auto;
+   }
+.nav-links{
      display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: black;
+      background-color: rgb(247, 215, 133);
       padding: 10px 20px;
-      position: fixed;
       width: 100%;
       top: 0;
       z-index: 1000;
-  }
-  #welcome-section{
-    padding-top:150px;
-    padding-bottom : 150px;
-    margin : 50px;
-    text-align : center;
-    border : 1px solid black;
-   
+}
+#welcome-section{
+    padding-top:10px;
+    padding-bottom : 10px;
     
-  }
-  #role{
+}
+#role{
     font-size : 30px;
-  }
-  @media min-width : 600px{
+}
+@media min-width : 600px{
     background-color: black;
-  }
+}
+#footer{
+    font-size: large;
+}
+.nav{
+  display: flex;
+  margin: auto;
+}
+#projects .div{
+  margin: 10px;
+}
+body{
+  background-color: rgba(238, 238, 110, 0.223);
+}
