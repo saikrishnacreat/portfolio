@@ -10,7 +10,6 @@
      display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: rgb(247, 215, 133);
       padding: 10px 20px;
       width: 100%;
       top: 0;
@@ -24,9 +23,6 @@
 #role{
     font-size : 30px;
 }
-@media min-width : 600px{
-    background-color: black;
-}
 #footer{
     font-size: large;
 }
@@ -38,5 +34,7 @@
   margin: 10px;
 }
 body{
-  background-color: rgba(238, 238, 110, 0.223);
+  background-color: black;
+  /* background-image: url('simon-berger-2JONUbTfN38-unsplash.jpg'); */
+  color:whitesmoke;
 }
